@@ -17,7 +17,6 @@ def main():
 
         else:
             elfWeights.append(currentElfWeight)
-
             currentElfWeight = 0
 
     elfWeights.sort()
