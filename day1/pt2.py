@@ -11,7 +11,7 @@ def main():
     with open('input.txt') as f:
         lines = f.readlines() 
     
-    for _, line in enumerate(lines):
+    for line in lines:
         if line != '\n':
             currentElfWeight += int(line)
 
