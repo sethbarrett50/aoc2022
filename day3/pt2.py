@@ -14,6 +14,7 @@ def main():
 
     for i in range(0, len(lines), 3):
         sumPrioriites += priorities[str(list(set(lines[i].replace('\n', ''))&set(lines[i + 1].replace('\n', ''))&set(lines[i + 2].replace('\n', ''))))[2:-2]]
+        
     print(sumPrioriites)
 
 
