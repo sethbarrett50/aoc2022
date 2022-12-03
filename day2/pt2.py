@@ -1,4 +1,4 @@
-# Day 1 AoC 2022
+# Day 2 AoC 2022
 # Part 2
 
 
