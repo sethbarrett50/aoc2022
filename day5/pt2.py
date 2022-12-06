@@ -5,7 +5,7 @@ import collections, re, pdb
 
 def main():
     stacks, pattern = [], re.compile(r"move ([\d]*) from ([\d]) to ([\d])")
-    for _ in range(0,10):
+    for _ in range(0,10) :
         stacks.append(collections.deque())
     
     with open('input.txt') as f:
