@@ -20,7 +20,7 @@ def main():
             currentElfWeight = 0
 
     elfWeights.sort()
-    print(elfWeights)
+    # print(elfWeights)
     sumElfWeights = sum(elfWeights[-3:])
     print(f'Max Weight Carried by the top three elves: {sumElfWeights}')
 

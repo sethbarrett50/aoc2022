@@ -11,7 +11,7 @@ fileSizeCapturePattern = re.compile(r"(\d*) ")
 def genDirSizes(lines:list) -> dict:
     pwd, dirToSize = '', {'/':0}
     for line in lines:
-        # If line contains cd command
+        # If line contains command
         if line[0] == '$':
             # Continue on ls commands
             if line[2] == 'l':
